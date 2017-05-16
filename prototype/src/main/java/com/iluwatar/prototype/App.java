@@ -48,10 +48,11 @@ public class App {
    */
   public static void main(String[] args) {
     HeroFactory factory;
-    Mage mage;
-    Warlord warlord;
-    Beast beast;
+    Mage mage;// 魔术师
+    Warlord warlord; // 军阀
+    Beast beast; // 野兽
 
+    // 精灵
     factory = new HeroFactoryImpl(new ElfMage(), new ElfWarlord(), new ElfBeast());
     mage = factory.createMage();
     warlord = factory.createWarlord();
@@ -60,6 +61,7 @@ public class App {
     LOGGER.info(warlord.toString());
     LOGGER.info(beast.toString());
 
+    // 兽人
     factory = new HeroFactoryImpl(new OrcMage(), new OrcWarlord(), new OrcBeast());
     mage = factory.createMage();
     warlord = factory.createWarlord();
