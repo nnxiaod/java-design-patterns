@@ -51,6 +51,7 @@ public class Oliphaunt {
 
   @Override
   public String toString() {
+      super.toString();
     return String.format("Oliphaunt id=%d", id);
   }
 }

@@ -17,13 +17,20 @@ Binary Semaphore
 ## Intent
 Create a lock which only allows a single thread to access a resource at any one instant.
 
+创建一个锁，在任何一个即时只允许一个线程访问资源
+
 ![alt text](./etc/mutex.png "Mutex")
 
 ## Applicability
 Use a Mutex when
 
 * you need to prevent two threads accessing a critical section at the same time
+
+    你需要防止两个线程同时访问一个关键部分
+
 * concurrent access to a resource could lead to a race condition 
+
+    并发访问的资源可能导致竞态条件
 
 ## Credits
 

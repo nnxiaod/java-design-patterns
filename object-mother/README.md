@@ -13,14 +13,24 @@ tags:
 ## Object Mother
 Define a factory of immutable content with separated builder and factory interfaces.
 
+通过分离builder和工厂接口，定义一个不变内容的工厂。
+
 ![alt text](./etc/object-mother.png "Object Mother")
 
 ## Applicability
 Use the Object Mother pattern when
 
 * You want consistent objects over several tests
+
+    你想要几个测试一致的对象
+
 * you want to reduce code for creation of objects in tests
+
+    你想减少测试的代码创建对象
+
 * every test should run with fresh data
+
+    每个测试都应该运行***新的数据***
 
 ## Credits
 
