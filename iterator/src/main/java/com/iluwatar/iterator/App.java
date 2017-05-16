@@ -45,7 +45,7 @@ public class App {
    * @param args command line args
    */
   public static void main(String[] args) {
-    TreasureChest chest = new TreasureChest();
+    TreasureChest chest = new TreasureChest(); // 财宝箱；宝库
 
     ItemIterator ringIterator = chest.iterator(ItemType.RING);
     while (ringIterator.hasNext()) {

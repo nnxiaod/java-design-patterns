@@ -15,6 +15,7 @@ tags:
 Represent an operation to be performed on the elements of an object
 structure. Visitor lets you define a new operation without changing the classes
 of the elements on which it operates.
+在对象结构元素上执行操作。在不改变要操作的元素类的前提下，定义新的操作。
 
 ![alt text](./etc/visitor_1.png "Visitor")
 
