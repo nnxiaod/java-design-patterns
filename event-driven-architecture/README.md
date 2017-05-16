@@ -14,6 +14,8 @@ tags:
 ## Intent
 Send and notify state changes of your objects to other applications using an Event-driven Architecture.
 
+发送和通知状态改变对象的其他应用程序使用事件驱动的体系结构
+
 ![alt text](./etc/eda.png "Event Driven Architecture")
 
 ## Applicability
@@ -36,3 +38,5 @@ Use an Event-driven architecture when
 * [Fundamental Components of an Event-Driven Architecture](http://giocc.com/fundamental-components-of-an-event-driven-architecture.html)
 * [Real World Applications/Event Driven Applications](https://wiki.haskell.org/Real_World_Applications/Event_Driven_Applications)
 * [Event-driven architecture definition](http://searchsoa.techtarget.com/definition/event-driven-architecture)
+
+一个分发器（事件容器），根据事件类型，获取时间处理器进行处理。
