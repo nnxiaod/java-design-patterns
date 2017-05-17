@@ -20,6 +20,8 @@ Encapsulate a request as an object, thereby letting you
 parameterize clients with different requests, queue or log requests, and
 support undoable operations.
 
+请求封装为一个对象,从而让你参数化客户端不同的请求,队列或日志请求,并支持可撤销的操作
+
 ![alt text](./etc/command.png "Command")
 
 ## Applicability

@@ -25,7 +25,7 @@ package com.iluwatar.model.view.controller;
 /**
  * 
  * Nourishment enumeration
- *
+ * 食物，营养品
  */
 public enum Nourishment {
 
