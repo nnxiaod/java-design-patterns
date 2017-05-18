@@ -46,14 +46,14 @@ public class App {
    * @param args command line args
    */
   public static void main(String[] args) {
-    LOGGER.info("Message from the orcs: ");
+    LOGGER.info("Message from the orcs: "); // 半兽人
 
     LetterComposite orcMessage = new Messenger().messageFromOrcs();
     orcMessage.print();
 
     LOGGER.info("\n");
 
-    LOGGER.info("Message from the elves: ");
+    LOGGER.info("Message from the elves: "); // 侏儒
 
     LetterComposite elfMessage = new Messenger().messageFromElves();
     elfMessage.print();

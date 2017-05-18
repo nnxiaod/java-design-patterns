@@ -16,6 +16,8 @@ Compose objects into tree structures to represent part-whole
 hierarchies. Composite lets clients treat individual objects and compositions
 of objects uniformly.
 
+组合对象树结构来表示——整个层次结构的一部分。组合使客户机能够统一地看待单个对象和对象的组合
+
 ![alt text](./etc/composite_1.png "Composite")
 
 ## Applicability

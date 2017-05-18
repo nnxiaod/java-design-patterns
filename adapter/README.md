@@ -19,6 +19,8 @@ Convert the interface of a class into another interface the clients
 expect. Adapter lets classes work together that couldn't otherwise because of
 incompatible interfaces.
 
+一个类的接口转换成客户希望另一个接口。适配器允许各类共同工作,否则不因为不兼容的接口
+
 ![alt text](./etc/adapter.png "Adapter")
 
 ## Applicability
